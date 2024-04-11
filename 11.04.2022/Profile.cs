@@ -35,6 +35,5 @@ namespace _11._04._2022
             foreach (var Stock in Portfolio.Stocks)
                 Console.WriteLine($"{Stock.Key}: {Stock.Value}");
         }
-
     }
 }
